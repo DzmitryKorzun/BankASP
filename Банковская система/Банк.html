@@ -1,9 +1,45 @@
-<!DOCTYPE html>
-<head >
-    <title>Банк</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
+
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Банк</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="LogicJS.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var slider = new SimpleAdaptiveSlider('.slider', {
+        loop: true,
+        autoplay: false,
+        swipe: true
+      });
+    });
+  </script>
 </head>
-<body class="error">
-    <h1>Я банк
+
+<body>
+  <div class="slider">
+    <div class="slider__wrapper">
+      <div class="slider__items">
+        <div class="slider__item">
+
+          <img src="../Банковская система/Source/Picture/depositphotos_16920649-stock-photo-big-bank.jpg">
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: #607d8b;"></div>
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: #f44336;"></div>
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: #4caf50;"></div>
+        </div>
+      </div>
+    </div>
+    <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+    <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+  </div>
 </body>
+</html>
