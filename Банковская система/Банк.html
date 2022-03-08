@@ -6,7 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Банк</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../Банковская система/Styles/styles.css">
+  <link rel="stylesheet" href="../Банковская система/Styles/RegStyle.css">
   <script defer src="LogicJS.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -25,7 +26,16 @@
         <a href="#news">О банке</a>
         <a href="#contact">Курсы</a>
       </div>
-      
+      <div style="max-width: 200px; margin-left: auto; margin-right: 25px; padding: 15px;">
+        <div class="text-field">
+          <label class="text-field__label" for="login">Логин</label>
+          <input class="text-field__input" type="text" name="login" id="login" placeholder="Login">
+        </div>
+          <div class="text-field">
+          <label class="text-field__label">Пароль</label>
+          <input class="text-field__input" type="password" name="password" id="password" placeholder="Password">
+          </div>
+      </div>
       <div style="padding-left:16px">
         <h2>ДмитриБанк</h2>
       </div>
