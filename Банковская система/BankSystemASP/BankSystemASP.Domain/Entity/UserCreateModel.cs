@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using BankSystemASP.Domain.Enum;
 
-namespace BankSystemASP.Data.Models
+namespace BankSystemASP.Domain.Entity
 {
     public class User
     {
@@ -44,5 +45,6 @@ namespace BankSystemASP.Data.Models
         public string Password { get; set; }
         [Required(ErrorMessage = passwordEmptyErrorString)]
         public string Email { get; set; }
+
     }
 }

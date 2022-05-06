@@ -176,9 +176,9 @@ WriteAttributeValue("", 1440, Url.Page("/moneyTransaction"), 1440, 30, false);
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
         public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<BankSystemASP.Data.Models.User> Html { get; private set; }
-        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<BankSystemASP.Data.Models.User> ViewData => (global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<BankSystemASP.Data.Models.User>)PageContext?.ViewData;
-        public BankSystemASP.Data.Models.User Model => ViewData.Model;
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<BankSystemASP.Domain.Entity.User> Html { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<BankSystemASP.Domain.Entity.User> ViewData => (global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<BankSystemASP.Domain.Entity.User>)PageContext?.ViewData;
+        public BankSystemASP.Domain.Entity.User Model => ViewData.Model;
     }
 }
 #pragma warning restore 1591

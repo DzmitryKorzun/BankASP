@@ -2072,6 +2072,32 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "BankSystemASP.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BankSystemASP.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.16",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2"
+        },
+        "compile": {
+          "bin/placeholder/BankSystemASP.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankSystemASP.DAL.dll": {}
+        }
+      },
+      "BankSystemASP.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BankSystemASP.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankSystemASP.Domain.dll": {}
+        }
       }
     }
   },
@@ -7293,10 +7319,22 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "BankSystemASP.DAL/1.0.0": {
+      "type": "project",
+      "path": "../BankSystemASP.DAL/BankSystemASP.DAL.csproj",
+      "msbuildProject": "../BankSystemASP.DAL/BankSystemASP.DAL.csproj"
+    },
+    "BankSystemASP.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BankSystemASP.Domain/BankSystemASP.Domain.csproj",
+      "msbuildProject": "../BankSystemASP.Domain/BankSystemASP.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "BankSystemASP.DAL >= 1.0.0",
+      "BankSystemASP.Domain >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.16",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.16",
@@ -7334,7 +7372,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Documents\\Диплом\\Программа\\Банковская система\\BankSystemASP\\BankSystemASP.DAL\\BankSystemASP.DAL.csproj": {
+              "projectPath": "E:\\Documents\\Диплом\\Программа\\Банковская система\\BankSystemASP\\BankSystemASP.DAL\\BankSystemASP.DAL.csproj"
+            },
+            "E:\\Documents\\Диплом\\Программа\\Банковская система\\BankSystemASP\\BankSystemASP.Domain\\BankSystemASP.Domain.csproj": {
+              "projectPath": "E:\\Documents\\Диплом\\Программа\\Банковская система\\BankSystemASP\\BankSystemASP.Domain\\BankSystemASP.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

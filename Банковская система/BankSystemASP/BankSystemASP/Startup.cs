@@ -10,7 +10,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using BankSystemASP.Data;
+using BankSystemASP.DAL;
+using BankSystemASP.DAL.Interfaces;
+using BankSystemASP.DAL.Repositories;
 
 namespace BankSystemASP
 {
@@ -28,6 +30,7 @@ namespace BankSystemASP
             services.AddDbContext<ApplicationDbContext>(options =>  options.UseSqlServer(connection));
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddScoped<IUserRepository, UserRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

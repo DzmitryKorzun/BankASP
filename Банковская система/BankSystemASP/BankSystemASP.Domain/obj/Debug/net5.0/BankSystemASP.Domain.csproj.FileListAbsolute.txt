@@ -1,0 +1,12 @@
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP.Domain\bin\Debug\net5.0\BankSystemASP.Domain.deps.json
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP.Domain\bin\Debug\net5.0\BankSystemASP.Domain.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP.Domain\bin\Debug\net5.0\ref\BankSystemASP.Domain.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP.Domain\bin\Debug\net5.0\BankSystemASP.Domain.pdb
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP.Domain\obj\Debug\net5.0\BankSystemASP.Domain.csproj.AssemblyReference.cache
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP.Domain\obj\Debug\net5.0\BankSystemASP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP.Domain\obj\Debug\net5.0\BankSystemASP.Domain.AssemblyInfoInputs.cache
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP.Domain\obj\Debug\net5.0\BankSystemASP.Domain.AssemblyInfo.cs
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP.Domain\obj\Debug\net5.0\BankSystemASP.Domain.csproj.CoreCompileInputs.cache
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP.Domain\obj\Debug\net5.0\BankSystemASP.Domain.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP.Domain\obj\Debug\net5.0\ref\BankSystemASP.Domain.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP.Domain\obj\Debug\net5.0\BankSystemASP.Domain.pdb

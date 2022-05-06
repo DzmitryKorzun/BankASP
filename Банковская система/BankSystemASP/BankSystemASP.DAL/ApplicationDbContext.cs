@@ -1,9 +1,10 @@
-﻿using BankSystemASP.Data.Models;
+﻿
+using BankSystemASP.Domain.Entity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace BankSystemASP.Data
+namespace BankSystemASP.DAL
 {
     public class ApplicationDbContext:DbContext
     {

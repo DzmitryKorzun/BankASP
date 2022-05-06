@@ -10,7 +10,32 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Прочие файлы",
       "ColorIndex": -1
+    },
+    "7120a40d-b579-47ae-8ab3-1ba4880d25e0": {
+      "ProjectGuid": "7120a40d-b579-47ae-8ab3-1ba4880d25e0",
+      "DisplayName": "BankSystemASP.Domain",
+      "ColorIndex": 1
+    },
+    "8723ad6f-0e80-4a4a-9773-9434aea695dd": {
+      "ProjectGuid": "8723ad6f-0e80-4a4a-9773-9434aea695dd",
+      "DisplayName": "Enum",
+      "ColorIndex": 2
+    },
+    "93f0fc17-4339-4bf3-b327-f3d647b471dc": {
+      "ProjectGuid": "93f0fc17-4339-4bf3-b327-f3d647b471dc",
+      "DisplayName": "BankSystemASP.Domain",
+      "ColorIndex": 3
+    },
+    "b2f5b464-271f-4360-a8b0-f9761c909d6b": {
+      "ProjectGuid": "b2f5b464-271f-4360-a8b0-f9761c909d6b",
+      "DisplayName": "BankSystemASP.DAL",
+      "ColorIndex": 4
+    },
+    "8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4": {
+      "ProjectGuid": "8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4",
+      "DisplayName": "BankSystemASP.DAL",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 6
 }

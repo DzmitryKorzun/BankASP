@@ -23,8 +23,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\Repository\" />
     <Folder Include="Pictures\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BankSystemASP.DAL\BankSystemASP.DAL.csproj" />
+    <ProjectReference Include="..\BankSystemASP.Domain\BankSystemASP.Domain.csproj" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>

@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSystemASP", "BankSystemASP\BankSystemASP.csproj", "{73FC953E-C997-4480-9037-E9B839DD8B5F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSystemASP.Domain", "BankSystemASP.Domain\BankSystemASP.Domain.csproj", "{93F0FC17-4339-4BF3-B327-F3D647B471DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSystemASP.DAL", "BankSystemASP.DAL\BankSystemASP.DAL.csproj", "{8A6C57D1-CFFC-4AB0-834D-CE5BA53E65A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{73FC953E-C997-4480-9037-E9B839DD8B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73FC953E-C997-4480-9037-E9B839DD8B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73FC953E-C997-4480-9037-E9B839DD8B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F0FC17-4339-4BF3-B327-F3D647B471DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F0FC17-4339-4BF3-B327-F3D647B471DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F0FC17-4339-4BF3-B327-F3D647B471DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F0FC17-4339-4BF3-B327-F3D647B471DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A6C57D1-CFFC-4AB0-834D-CE5BA53E65A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6C57D1-CFFC-4AB0-834D-CE5BA53E65A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6C57D1-CFFC-4AB0-834D-CE5BA53E65A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6C57D1-CFFC-4AB0-834D-CE5BA53E65A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

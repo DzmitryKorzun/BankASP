@@ -1,33 +1,27 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using BankSystemASP.Data.Models;
-using BankSystemASP.Data;
 using System.Linq;
 using System.Threading;
 using Microsoft.EntityFrameworkCore;
+using BankSystemASP.DAL;
+using BankSystemASP.DAL.Interfaces;
 
 namespace BankSystemASP.Controllers
 {
     public class HomeController : Controller
     {
-        private ApplicationDbContext db;
-        public HomeController(ApplicationDbContext context)
+        private readonly IUserRepository userRepository;
+        public HomeController(IUserRepository userRepository)
         {
-            db = context;
+            this.userRepository = userRepository;
         }
 
-        public async Task<IActionResult> Index() => View(await db.Users.ToListAsync());
-
-        [HttpGet]
-        public IActionResult Registration() => View();
-        [HttpPost]
-        public async Task<IActionResult> Registration(User model)
+        public async Task<IActionResult> Index()
         {
-            if (ModelState.IsValid)
-            {
-            }
-            return View();
+            var response = await userRepository.Select();
+            return View(response);
         }
+
 
         public IActionResult BranchOffices() => View();
 
