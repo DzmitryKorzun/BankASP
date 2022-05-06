@@ -170,3 +170,6 @@ E:\Documents\Диплом\Программа\Банковская система
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Home\BranchOffices.cshtml.g.cs
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BankSystemASP.DAL.dll
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BankSystemASP.DAL.pdb
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BankSystemASP.Service.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BankSystemASP.Service.pdb
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Users\GetUsers.cshtml.g.cs

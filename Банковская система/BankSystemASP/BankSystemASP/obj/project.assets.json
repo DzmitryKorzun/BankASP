@@ -2098,6 +2098,20 @@
         "runtime": {
           "bin/placeholder/BankSystemASP.Domain.dll": {}
         }
+      },
+      "BankSystemASP.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BankSystemASP.DAL": "1.0.0",
+          "BankSystemASP.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BankSystemASP.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankSystemASP.Service.dll": {}
+        }
       }
     }
   },
@@ -7329,12 +7343,18 @@
       "type": "project",
       "path": "../BankSystemASP.Domain/BankSystemASP.Domain.csproj",
       "msbuildProject": "../BankSystemASP.Domain/BankSystemASP.Domain.csproj"
+    },
+    "BankSystemASP.Service/1.0.0": {
+      "type": "project",
+      "path": "../Service/BankSystemASP.Service.csproj",
+      "msbuildProject": "../Service/BankSystemASP.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "BankSystemASP.DAL >= 1.0.0",
       "BankSystemASP.Domain >= 1.0.0",
+      "BankSystemASP.Service >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.16",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.16",
@@ -7378,6 +7398,9 @@
             },
             "E:\\Documents\\Диплом\\Программа\\Банковская система\\BankSystemASP\\BankSystemASP.Domain\\BankSystemASP.Domain.csproj": {
               "projectPath": "E:\\Documents\\Диплом\\Программа\\Банковская система\\BankSystemASP\\BankSystemASP.Domain\\BankSystemASP.Domain.csproj"
+            },
+            "E:\\Documents\\Диплом\\Программа\\Банковская система\\BankSystemASP\\Service\\BankSystemASP.Service.csproj": {
+              "projectPath": "E:\\Documents\\Диплом\\Программа\\Банковская система\\BankSystemASP\\Service\\BankSystemASP.Service.csproj"
             }
           }
         }

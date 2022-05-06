@@ -1,0 +1,7 @@
+﻿@using BankSystemASP.Domain.Entity
+@model IEnumerable<User>
+
+@foreach (var user in Model)
+{
+    <p>@user.Name</p>
+}

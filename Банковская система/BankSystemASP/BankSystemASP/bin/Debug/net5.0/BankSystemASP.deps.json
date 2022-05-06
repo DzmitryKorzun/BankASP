@@ -35,6 +35,7 @@
         "dependencies": {
           "BankSystemASP.DAL": "1.0.0",
           "BankSystemASP.Domain": "1.0.0",
+          "BankSystemASP.Service": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.16",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.16",
@@ -1858,6 +1859,18 @@
         },
         "compile": {
           "BankSystemASP.Domain.dll": {}
+        }
+      },
+      "BankSystemASP.Service/1.0.0": {
+        "dependencies": {
+          "BankSystemASP.DAL": "1.0.0",
+          "BankSystemASP.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BankSystemASP.Service.dll": {}
+        },
+        "compile": {
+          "BankSystemASP.Service.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -4463,6 +4476,11 @@
       "sha512": ""
     },
     "BankSystemASP.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BankSystemASP.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

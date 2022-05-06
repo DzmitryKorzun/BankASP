@@ -1,0 +1,17 @@
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\bin\Debug\net5.0\BankSystemASP.Service.deps.json
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\bin\Debug\net5.0\BankSystemASP.Service.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\bin\Debug\net5.0\ref\BankSystemASP.Service.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\bin\Debug\net5.0\BankSystemASP.Service.pdb
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\bin\Debug\net5.0\BankSystemASP.DAL.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\bin\Debug\net5.0\BankSystemASP.Domain.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\bin\Debug\net5.0\BankSystemASP.DAL.pdb
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\bin\Debug\net5.0\BankSystemASP.Domain.pdb
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\obj\Debug\net5.0\BankSystemASP.Service.csproj.AssemblyReference.cache
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\obj\Debug\net5.0\BankSystemASP.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\obj\Debug\net5.0\BankSystemASP.Service.AssemblyInfoInputs.cache
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\obj\Debug\net5.0\BankSystemASP.Service.AssemblyInfo.cs
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\obj\Debug\net5.0\BankSystemASP.Service.csproj.CoreCompileInputs.cache
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\obj\Debug\net5.0\BankSystemASP.Service.csproj.CopyComplete
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\obj\Debug\net5.0\BankSystemASP.Service.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\obj\Debug\net5.0\ref\BankSystemASP.Service.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\Service\obj\Debug\net5.0\BankSystemASP.Service.pdb
