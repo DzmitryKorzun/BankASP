@@ -8,6 +8,9 @@
   <title>Банк</title>
   <link rel="stylesheet" href="../Банковская система/Styles/styles.css">
   <link rel="stylesheet" href="../Банковская система/Styles/RegStyle.css">
+  <link rel="stylesheet" href="../Банковская система/Styles/ButtonStyle.css">
+  <link rel="stylesheet" href="../Банковская система/Styles/AuthenticationForm.css">
+  <link rel="stylesheet" href="../Банковская система/Styles/RegistrationFormStyle.css">
   <script defer src="LogicJS.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -21,25 +24,43 @@
 </head>
 
 <body>
+
+  <div class="form-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+      <h1>Логин</h1>  
+      <label for="email"><b>Почта</b></label>
+      <input type="text" placeholder="Введите Почту" name="email" required>
+  
+      <label for="psw"><b>Пароль</b></label>
+      <input type="password" placeholder="Введите Пароль" name="psw" required>
+  
+      <button type="submit" class="btn">Логин</button>
+      <button type="submit" class="btn cancel" onclick="closeForm()">Закрыть</button>
+    </form>
+  </div>
+  
     <div class="topnav">
+      <div class="mainLogo">
+        <h1>ДмитриБанк</h1>
+      </div>
         <a class="active" href="#home">Главная</a>
         <a href="#news">О банке</a>
         <a href="#contact">Курсы</a>
       </div>
-      <div style="max-width: 200px; margin-left: auto; margin-right: 25px; padding: 15px;">
+      <div class="authenticationForm">
         <div class="text-field">
           <label class="text-field__label" for="login">Логин</label>
           <input class="text-field__input" type="text" name="login" id="login" placeholder="Login">
         </div>
-          <div class="text-field">
-          <label class="text-field__label">Пароль</label>
-          <input class="text-field__input" type="password" name="password" id="password" placeholder="Password">
-          </div>
+        <div class="text-field">
+        <label class="text-field__label">Пароль</label>
+        <input class="text-field__input" type="password" name="password" id="password" placeholder="Password">
+        </div>
+        <div class="authentication-wrapper">
+          <button class="signIn-button authentication-button">Войти</button>
+          <button class="registration-button authentication-button">Регистрация</button>
+        </div>
       </div>
-      <div style="padding-left:16px">
-        <h2>ДмитриБанк</h2>
-      </div>
-
 
   <div class="slider">
     <div class="slider__wrapper">

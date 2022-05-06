@@ -1,0 +1,34 @@
+﻿@using BankSystemASP.Data.Models
+@model User
+@{
+    ViewData["Title"] = "Регистрация пользователя";
+}
+
+
+<html>    
+  <div id="RegistrationForm">
+    <form class="form-container">
+      <h1>Регистрация</h1>
+      <label><b>Фамилия</b></label>
+      <input type="text" asp-for="Surname" placeholder="Введите Фаимлию" name="surname"><br>
+
+      <label for="name"><b>Имя</b></label>
+      <input type="text" asp-form="Name" placeholder="Введите Имя" name="name"><br>
+
+      <label for="Patronymic"><b>Отчество</b></label>
+      <input type="text" asp-for="Patronymic" placeholder="Введите Отчество" name="patronymic"><br>
+      
+      <label for="email"><b>Почта</b></label>
+      <input type="text" asp-for="Email" placeholder="Введите Почту" name="email"><br>
+
+      <label for="psw"><b>Пароль</b></label>
+      <input type="password" asp-for="Password" placeholder="Введите Пароль" name="psw"><br>
+
+      <label for="psw"><b>Повтор пароля</b></label>
+      <input type="password" placeholder="Введите Пароль" name="psw"><br>
+
+      <button type="submit" class="btn">Регистрация</button><br>
+    </form>
+  </div>
+
+</html>

@@ -1,0 +1,28 @@
+﻿.transactionPage
+{
+    text-align: center;
+
+}
+
+.transactionForm
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 400px;
+}
+
+.transactionFormData
+{
+    background-color: darkgreen;
+    width: 45%;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.transactionForm_arrow {
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+
+}
