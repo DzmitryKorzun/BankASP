@@ -1,8 +1,6 @@
 ﻿@using BankSystemASP.Domain.Entity
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
-@model IEnumerable<User>
-
 <!doctype html>
 <html lang="ru">
 
@@ -18,13 +16,6 @@
 </head>
 
 <body>    
-    <table class="table">
-    <tr><td>Имя</td><td>Возраст</td></tr>
-    @foreach (var item in Model)
-    {
-        <tr><td>@item.Name</td><td>@item.Age</td></tr>
-    }
-</table>
   <div class="form-popup" id="myForm">
     <form class="form-container">
       <h1>Логин</h1>  
@@ -44,7 +35,7 @@
         <a>Главная</a>
         <a>О банке</a>
         <a>Курсы</a>
-        <a @Url.Action("","")>Филлиалы</a>
+        <a href='@Url.Action("Branches","Branch")'>Филлиалы</a>
       </div>
       <div class="authenticationForm">
         <div class="text-field">

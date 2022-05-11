@@ -16,14 +16,7 @@ namespace BankSystemASP.Controllers
             this.userRepository = userRepository;
         }
 
-        public async Task<IActionResult> Index()
-        {
-            var response = await userRepository.Select();
-            return View(response);
-        }
-
-
-        public IActionResult BranchOffices() => View();
+        public IActionResult Index() => View();
 
     }
 }

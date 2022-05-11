@@ -35,7 +35,12 @@
       "ProjectGuid": "8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4",
       "DisplayName": "BankSystemASP.DAL",
       "ColorIndex": 5
+    },
+    "5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a": {
+      "ProjectGuid": "5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a",
+      "DisplayName": "BankSystemASP.Service",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }

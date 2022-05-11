@@ -15,6 +15,7 @@ using BankSystemASP.DAL.Interfaces;
 using BankSystemASP.DAL.Repositories;
 using BankSystemASP.Service.Interfaces;
 using Service.Implementations;
+using BankSystemASP.Service.Implementations;
 
 namespace BankSystemASP
 {
@@ -34,6 +35,8 @@ namespace BankSystemASP
             services.AddRazorPages();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IBranchRepository, BranchRepository>();
+            services.AddScoped<IBranchServise, BranchService>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

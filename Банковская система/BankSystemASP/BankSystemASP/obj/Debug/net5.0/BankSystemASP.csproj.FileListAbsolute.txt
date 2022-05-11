@@ -156,7 +156,6 @@ E:\Documents\Диплом\Программа\Банковская система
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\BankSystemASP.TagHelpers.input.cache
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\BankSystemASP.TagHelpers.output.cache
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\BankSystemASP.RazorCoreGenerate.cache
-E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\BankSystemASP.RazorTargetAssemblyInfo.cs
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\BankSystemASP.Views.pdb
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Pages\moneyTransaction.cshtml.g.cs
@@ -173,3 +172,4 @@ E:\Documents\Диплом\Программа\Банковская система
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BankSystemASP.Service.dll
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BankSystemASP.Service.pdb
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Users\GetUsers.cshtml.g.cs
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Branch\Branches.cshtml.g.cs

@@ -1,0 +1,44 @@
+﻿@using BankSystemASP.Domain.Entity
+@model IEnumerable<Branch>
+
+<!DOCTYPE html>
+<HTML>
+ <head>
+  <meta charset="utf-8">
+  <title>Филлиалы</title>
+ </head>
+ <body>     
+     Область
+  <form>
+   <p><select name="Область">
+    <option type="submit" selected value="s1"></option>
+   </select>
+   </form>
+     Город
+  <form>
+   <p><select name="Города">
+    <option type="submit" selected value="s1"></option>
+   </select>
+   </form>
+
+    Улица
+  <form>
+   <p><select name="Улица">
+    <option type="submit" selected value="s1"></option>
+   </select>
+   </form>
+
+   
+     Номер
+  <form>
+   <p><select name="Область">
+      @foreach (var item in Model)
+      {
+          <option type="submit" selected value="s1">@item.Namber</option>
+      }
+    
+   </select>
+   </form>
+
+ </body>
+</HTML>

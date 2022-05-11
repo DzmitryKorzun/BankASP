@@ -41,8 +41,7 @@ namespace Service.Implementations
                 return new BaseResponse<IEnumerable<User>>()
                 {
                     Description = $"[GetAllUser] : {ex.Message}"
-                };
-                
+                };                
             }
         }
     }

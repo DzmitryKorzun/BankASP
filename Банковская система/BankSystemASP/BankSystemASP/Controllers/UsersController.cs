@@ -19,8 +19,14 @@ namespace BankSystemASP.Controllers
         public async Task<IActionResult> GetUsers()
         {
             var response = await userService.GetAllUsers();
-            return View(response.Data);
+            if (response.Status == Domain.Enum.StatusCode.OK)
+            {
+                return View(response.Data);
+            }
+            else
+            {
+                return RedirectToAction("Error");
+            }            
         }
-
     }
 }

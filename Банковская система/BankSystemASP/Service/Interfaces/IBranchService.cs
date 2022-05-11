@@ -8,9 +8,8 @@ using System.Threading.Tasks;
 
 namespace BankSystemASP.Service.Interfaces
 {
-    public interface IUserService
+    public interface IBranchServise
     {
-        Task<IBaseResponse<IEnumerable<User>>> GetAllUsers();
-
+        Task<IBaseResponse<IEnumerable<Branch>>> GetAllBranches();
     }
 }

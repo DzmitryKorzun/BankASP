@@ -17,5 +17,7 @@ namespace BankSystemASP.Domain.Response
     public interface IBaseResponse<T>
     {
         T Data { get; set; }
+        StatusCode Status { get; set; }
+        string Description { get; set; }
     }
 }

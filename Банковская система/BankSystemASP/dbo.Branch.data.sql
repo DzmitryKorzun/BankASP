@@ -1,0 +1,1 @@
+﻿INSERT INTO [dbo].[Branch] ([IdBranch], [namber], [idAddress], [isPreEntry], [isWorksOnWeekends], [isForInvalid], [isHaveWiFi], [isHaveParking], [isElectronicQueue]) VALUES (1, 532, 1, 1, 0, 1, 0, 1, 1)
