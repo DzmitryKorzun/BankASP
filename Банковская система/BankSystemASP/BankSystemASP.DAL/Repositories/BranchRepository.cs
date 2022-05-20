@@ -32,6 +32,11 @@ namespace BankSystemASP.DAL.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<List<Branch>> Select() => dbContext.Branches.ToListAsync();
+        public async Task<List<Branch>> Select() => await dbContext.Branches.ToListAsync();
+
+        Task<List<Branch>> IBaseRepository<Branch>.GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

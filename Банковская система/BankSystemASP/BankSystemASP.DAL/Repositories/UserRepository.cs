@@ -32,12 +32,13 @@ namespace BankSystemASP.DAL.Repositories
             throw new NotImplementedException();
         }
 
-        public User GetById(int id)
+        public async Task<User> GetById(int id) => await dbContext.Users.FromSqlRaw($"SELECT * FROM Users WHERE idUser = {id}").FirstOrDefaultAsync();
+
+        public async Task<List<User>> Select() => await dbContext.Users.ToListAsync();
+
+        Task<List<User>> IBaseRepository<User>.GetById(int id)
         {
             throw new NotImplementedException();
         }
-
-        public async Task<List<User>> Select() => await dbContext.Users.ToListAsync();
-        
     }
 }

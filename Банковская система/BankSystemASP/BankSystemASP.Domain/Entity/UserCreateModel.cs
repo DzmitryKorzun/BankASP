@@ -46,5 +46,6 @@ namespace BankSystemASP.Domain.Entity
         [Required(ErrorMessage = passwordEmptyErrorString)]
         public string Email { get; set; }
 
+
     }
 }

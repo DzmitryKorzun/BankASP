@@ -25,7 +25,7 @@ namespace Service.Implementations
             var baseResponse = new BaseResponse<IEnumerable<User>>();
             try
             {
-                var users = await userRepository.Select();
+                var users = await userRepository.GetById(1);
                 if (users.Count == 0)
                 {
                     baseResponse.Description = "Нет пользователей :-(";
