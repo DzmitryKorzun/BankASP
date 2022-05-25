@@ -20,6 +20,10 @@ namespace BankSystemASP.Service.Implementations
             this.branchRepository = userRepository;
         }
 
+        public async Task Create(Branch branch)
+        {
+            await branchRepository.Create(branch);
+        }
 
         public async Task<IBaseResponse<IEnumerable<Branch>>> GetAllBranches()
         {
@@ -46,5 +50,10 @@ namespace BankSystemASP.Service.Implementations
             }
 
         }
+
+        //async Task<IBaseResponse<Branch>> IBranchServise.Create(Branch branch)
+        //{
+        //     await branchRepository.Create(branch);             
+        //}
     }
 }

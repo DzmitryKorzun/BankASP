@@ -11,5 +11,6 @@ namespace BankSystemASP.Service.Interfaces
     public interface IBranchServise
     {
         Task<IBaseResponse<IEnumerable<Branch>>> GetAllBranches();
+      //  Task<IBaseResponse<Branch>> Create(Branch branch);
     }
 }

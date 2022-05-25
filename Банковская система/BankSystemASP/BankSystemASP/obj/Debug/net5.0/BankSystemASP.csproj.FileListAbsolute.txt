@@ -165,7 +165,6 @@ E:\Documents\Диплом\Программа\Банковская система
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BankSystemASP.Domain.dll
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BankSystemASP.Domain.pdb
-E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Home\BranchOffices.cshtml.g.cs
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BankSystemASP.DAL.dll
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BankSystemASP.DAL.pdb
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BankSystemASP.Service.dll
@@ -173,3 +172,19 @@ E:\Documents\Диплом\Программа\Банковская система
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Users\GetUsers.cshtml.g.cs
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Branch\Branches.cshtml.g.cs
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\MySqlConnector.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\Google.Protobuf.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\MySql.Data.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\ZstdNet.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\Ru\BankSystemASP.resources.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\BankSystemASP.Resources.Region.LanguageResRegion.Ru.resources
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\BankSystemASP.csproj.GenerateResource.cache
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Ru\BankSystemASP.resources.dll
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Account\CustomerAccount.cshtml.g.cs

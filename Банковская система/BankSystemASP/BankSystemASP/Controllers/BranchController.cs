@@ -12,9 +12,11 @@ namespace BankSystemASP.Controllers
         {
             this.branchService = branchService;
         }
+
         [HttpGet]
         public async Task<IActionResult> Branches()
         {
+           // var response2 = await branchService.Create(new Domain.Entity.Branch(2, 654743, 1, 1, 0, 1, 1, 0, 1, "Пн-Пт 8.00 - 17.00"));
             var response = await branchService.GetAllBranches();
             if (response.Status == Domain.Enum.StatusCode.OK)
             {
@@ -22,10 +24,12 @@ namespace BankSystemASP.Controllers
             }
             else
             {
-                return RedirectToAction("Error");
+                return RedirectToAction(nameof(Error));
             }
         }
 
+        public  IActionResult Error() => View();
+       
         
     }
 }

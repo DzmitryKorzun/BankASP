@@ -10,13 +10,14 @@ namespace BankSystemASP.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IUserRepository userRepository;
-        public HomeController(IUserRepository userRepository)
+        private readonly ICustomerRepository userRepository;
+        public HomeController(ICustomerRepository userRepository)
         {
             this.userRepository = userRepository;
         }
 
         public IActionResult Index() => View();
+        public IActionResult About() => View();
 
     }
 }

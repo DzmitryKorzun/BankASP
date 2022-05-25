@@ -1,0 +1,112 @@
+body * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body .registrationForm {
+  width: 400px;
+  margin: 50px auto 0 auto;
+  background: #f7f7f7;
+  border-radius: 10px;
+}
+body .registrationForm form {
+  padding: 15px 30px 30px 30px;
+}
+body .registrationForm form h1 {
+  text-align: center;
+  margin-top: 0;
+}
+body .registrationForm form div label {
+  font-weight: bold;
+  margin-left: 5px;
+}
+body .registrationForm form div input {
+  display: block;
+  width: 100%;
+  margin: 4px 0 10px 0;
+  padding: 10px 5px;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+}
+body .registrationForm form div input:focus {
+  border-color: #cbffcb;
+  outline: 2px solid #cbffcb;
+}
+body .registrationForm form button {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  background: #87d587;
+  border-radius: 7px;
+  color: #fff;
+  font-weight: bold;
+}
+body .base-block {
+  margin: auto;
+  padding: 15px;
+  border-radius: 5px;
+  background: #f7f7f7;
+  display: flex;
+  width: 650px;
+  max-height: 670px;
+  overflow-y: auto;
+}
+body .base-block span {
+  font-weight: bold;
+  margin-left: 5px;
+}
+body .base-block select {
+  display: block;
+  width: 100%;
+  margin: 4px 0 10px 0;
+  padding: 10px 5px;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+}
+body .base-block select:focus {
+  border-color: #cbffcb;
+  outline: 2px solid #cbffcb;
+}
+body .base-block .filter {
+  width: 30%;
+  padding: 5px;
+}
+body .base-block .filter .filter-wrapper > * {
+  display: block;
+  margin-bottom: 5px;
+}
+body .base-block .filter .checkbox {
+  margin-bottom: 5px;
+}
+body .base-block .info-block {
+  width: 70%;
+}
+body .base-block .info-block .sort {
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+body .base-block .info-block .sort span,
+body .base-block .info-block .sort select {
+  display: inline-block;
+  margin: 0;
+}
+body .base-block .info-block .sort select {
+  margin-left: 10px;
+}
+body .base-block .info-block .bank-info {
+  display: flex;
+  border: 1px solid #515353;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+body .base-block .info-block .bank-info span {
+  margin: 0;
+}
+body .base-block .info-block .bank-info > div {
+  width: 50%;
+  padding: 5px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -16,6 +16,7 @@ using BankSystemASP.DAL.Repositories;
 using BankSystemASP.Service.Interfaces;
 using Service.Implementations;
 using BankSystemASP.Service.Implementations;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace BankSystemASP
 {
@@ -30,13 +31,19 @@ namespace BankSystemASP
         public void ConfigureServices(IServiceCollection services)
         {
             string connection = Configuration.GetConnectionString("DefaultConnection");
-            services.AddDbContext<ApplicationDbContext>(options =>  options.UseSqlServer(connection));
+            var serverVersion = new MySqlServerVersion(new Version(8, 0, 27));
+            services.AddDbContext<ApplicationDbContext>(options =>  options.UseMySql(connection, serverVersion));
             services.AddControllersWithViews();
             services.AddRazorPages();
-            services.AddScoped<IUserRepository, UserRepository>();
-            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<IBranchRepository, BranchRepository>();
             services.AddScoped<IBranchServise, BranchService>();
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
+            {
+                options.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Account/Login");
+                options.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/Account/Login");
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -48,10 +55,10 @@ namespace BankSystemASP
 
             app.UseHttpsRedirection();
             app.UseRouting();
-            app.UseStaticFiles();     
-         
-
+            app.UseStaticFiles();
+            app.UseAuthentication();
             app.UseAuthorization();
+            
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

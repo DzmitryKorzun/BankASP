@@ -17,22 +17,23 @@ namespace BankSystemASP.DAL.Repositories
             this.dbContext = dbContext;
         }
 
-        public bool Create(Branch entity)
-        {
-            throw new NotImplementedException();
-        }
-
         public bool Delete(Branch entity)
         {
             throw new NotImplementedException();
         }
 
-        public Branch GetById(int id)
+        public IEnumerable<Branch> GetAll()
         {
-            throw new NotImplementedException();
+            return dbContext.Branches;
         }
 
         public async Task<List<Branch>> Select() => await dbContext.Branches.ToListAsync();
+
+        async Task IBaseRepository<Branch>.Create(Branch entity)
+        {
+            dbContext.Branches.Add(entity);
+            await dbContext.SaveChangesAsync();
+        }
 
         Task<List<Branch>> IBaseRepository<Branch>.GetById(int id)
         {

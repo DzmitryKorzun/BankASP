@@ -1,0 +1,371 @@
+﻿++Решение "BankSystemASP" ‎(проекты: 4 из 4)
+i:{00000000-0000-0000-0000-000000000000}:BankSystemASP.sln
+++BankSystemASP.Domain
+i:{00000000-0000-0000-0000-000000000000}:BankSystemASP.Domain
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\bin\debug\net5.0\banksystemasp.domain.dll
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\bin\debug\net5.0\banksystemasp.domain.dll
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\banksystemasp.domain.csproj
+++Зависимости
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:>598
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:>599
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:>600
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:>920
+++Enum
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\enum\
+++Response
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\response\
+++Анализаторы
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:анализаторы
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:анализаторы
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:анализаторы
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:анализаторы
+++Платформы
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:платформы
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:платформы
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:платформы
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:платформы
+++StatusCode.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\enum\statuscode.cs
+++UserRoleEnum.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\enum\userroleenum.cs
+++BaseResponse.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\response\baseresponse.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.NETCore.App
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\microsoft.netcore.app
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.dal\microsoft.netcore.app
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:e:\documents\диплом\программа\банковская система\banksystemasp\service\microsoft.netcore.app
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\microsoft.netcore.app
+++BankSystemASP.DAL
+i:{00000000-0000-0000-0000-000000000000}:BankSystemASP.DAL
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.dal\bin\debug\net5.0\banksystemasp.dal.dll
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.dal\banksystemasp.dal.csproj
+++Properties
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.dal\properties\
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\properties\
+++launchSettings.json
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.dal\properties\launchsettings.json
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\properties\launchsettings.json
+++Interfaces
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.dal\interfaces\
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:e:\documents\диплом\программа\банковская система\banksystemasp\service\interfaces\
+++Repositories
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.dal\repositories\
+++BranchRepository.cs
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.dal\repositories\branchrepository.cs
+++UserRepository.cs
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.dal\repositories\userrepository.cs
+++ApplicationDbContext.cs
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.dal\applicationdbcontext.cs
+++Пакеты
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:пакеты
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:пакеты
+++Проекты
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:проекты
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:проекты
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:проекты
+++IBaseRepository.cs
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.dal\interfaces\ibaserepository.cs
+++IBranchRepository.cs
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.dal\interfaces\ibranchrepository.cs
+++IUserRepository.cs
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.dal\interfaces\iuserrepository.cs
+++Microsoft.CodeAnalysis.Analyzers
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:c:\users\dima\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:c:\users\dima\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:c:\users\dima\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:c:\users\dima\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:c:\users\dima\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:c:\users\dima\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:c:\users\dima\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.16\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:c:\users\dima\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.16\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:c:\users\dima\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.16\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (5.0.0)
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:>968
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:>937
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.16)
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:>966
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:>936
+++Microsoft.EntityFrameworkCore.Tools (5.0.16)
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:>969
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:>938
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (5.0.2)
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:>970
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:>940
+++BankSystemASP.Service
+i:{00000000-0000-0000-0000-000000000000}:BankSystemASP.Service
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\service\banksystemasp.service.csproj
+++Implementations
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:e:\documents\диплом\программа\банковская система\banksystemasp\service\implementations\
+++AccountService.cs
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:e:\documents\диплом\программа\банковская система\banksystemasp\service\implementations\accountservice.cs
+++BranchService.cs
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:e:\documents\диплом\программа\банковская система\banksystemasp\service\implementations\branchservice.cs
+++UserService.cs
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:e:\documents\диплом\программа\банковская система\banksystemasp\service\implementations\userservice.cs
+++IAccountService.cs
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:e:\documents\диплом\программа\банковская система\banksystemasp\service\interfaces\iaccountservice.cs
+++IBranchService.cs
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:e:\documents\диплом\программа\банковская система\banksystemasp\service\interfaces\ibranchservice.cs
+++IUserService.cs
+i:{5c20cbc5-a68a-4d4c-b46c-f2124ea9c87a}:e:\documents\диплом\программа\банковская система\banksystemasp\service\interfaces\iuserservice.cs
+++BankSystemASP
+i:{00000000-0000-0000-0000-000000000000}:BankSystemASP
+++Connected Services 
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:>921
+++wwwroot
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\
+++css
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\css\
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\css\
+++AuthenticationForm.css
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\css\authenticationform.css
+++ButtonStyle.css
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\css\buttonstyle.css
+++RegistrationFormStyle.css
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\css\registrationformstyle.css
+++RegistrationStyle.css
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\css\registrationstyle.css
+++RegStyle.css
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\css\regstyle.css
+++styles.css
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\css\styles.css
+++TransactionStyle.css
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\css\transactionstyle.css
+++lib
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\
+++Controllers
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\controllers\
+++AccountController.cs
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\controllers\accountcontroller.cs
+++BranchController.cs
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\controllers\branchcontroller.cs
+++HomeController.cs
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\controllers\homecontroller.cs
+++UsersController.cs
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\controllers\userscontroller.cs
+++Helpers
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\helpers\
+++HashPassword.cs
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\helpers\hashpassword.cs
+++Pages
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\pages\
+++MoneyTransaction.cshtml
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\pages\moneytransaction.cshtml
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\views\users\moneytransaction.cshtml
+++Pictures
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\pictures\
+++bank1.jpg
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\pictures\bank1.jpg
+++Views
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\views\
+++Account
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\views\account\
+++Register.cshtml
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\views\account\register.cshtml
+++Branch
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\views\branch\
+++Branches.cshtml
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\views\branch\branches.cshtml
+++Home
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\views\home\
+++BranchOffices.cshtml
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\views\home\branchoffices.cshtml
+++Index.cshtml
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\views\home\index.cshtml
+++Users
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\views\users\
+++GetUsers.cshtml
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\views\users\getusers.cshtml
+++appsettings.json
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\appsettings.json
+++dbSettings.json
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\dbsettings.json
+++Program.cs
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\program.cs
+++Startup.cs
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\startup.cs
+++Зависимости службы не обнаружены
+++bootstrap
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\
+++jquery
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery\
+++jquery-validation
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery-validation-unobtrusive\
+++Microsoft.AspNetCore.Analyzers
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++MySql.Data (8.0.29)
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:>981
+++Pomelo.EntityFrameworkCore.MySql (5.0.0)
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:>939
+++Microsoft.AspNetCore.App
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\microsoft.aspnetcore.app
+++moneyTransaction.cshtml.cs
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\pages\moneytransaction.cshtml.cs
+++appsettings.Development.json
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\appsettings.development.json
+++dist
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery\dist\
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery\license.txt
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++js
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\js\
+++JQ.js
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery\dist\jq.js
+++jquery.js
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap.js
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap-grid.css.map
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-reboot.css.map
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap.bundle.js
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.js.map
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap-grid.min.css.map
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-reboot.min.css.map
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap.bundle.js.map
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.min.js.map
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.bundle.min.js.map
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++База данных SQL Server
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:>1096
+++Обнаружена зависимость База данных SQL Server.
+i:{73fc953e-c997-4480-9037-e9b839dd8b5f}:>1097
+++Entity
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\
+++AddreesModel.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\addreesmodel.cs
+++BranchCreateModel.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\branchcreatemodel.cs
+++CityModel.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\citymodel.cs
+++LoginViewModel.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\loginviewmodel.cs
+++RegionModel.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\regionmodel.cs
+++RegisterViewModel.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\registerviewmodel.cs
+++StreetTypeModel.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\streettypemodel.cs
+++UserCreateModel.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\usercreatemodel.cs
+++ExchangeRates.cs
+++ExchangeRatesModel.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\exchangeratesmodel.cs
+++akjgyyt4.wcy~
+++ExchangeRatesModel.cs~RF5f926d4.TMP
+++CurrencyModel.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\currencymodel.cs
+++TransactionModel.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\transactionmodel.cs
+++BankAccount.cs
+++BankAccountModel.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\bankaccountmodel.cs
+++СustomerBankAccountsModel.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\сustomerbankaccountsmodel.cs
+++gvpmker0.yf5~
+++СustomerBankAccountsModel.cs~RF6261cc7.TMP
+++CustomerModel.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\customermodel.cs
+++CustomerModel.cs~RF632c8db.TMP
+++CustomerModel.cs~RF6338e00.TMP
+++RoleModel.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\rolemodel.cs
+++PhoneNumberModel.cs
+i:{93f0fc17-4339-4bf3-b327-f3d647b471dc}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.domain\entity\phonenumbermodel.cs
+++ApplicationDbContext.cs~RF648139a.TMP
+++ApplicationDbContext.cs~RF64a724a.TMP
+++ApplicationDbContext.cs~RF64dabf9.TMP
+++2xmlw3wl.ik4~
+++BranchCreateModel.cs~RF669d1b9.TMP
+++ExchangeRatesModel.cs~RF66bc7dc.TMP
+++BranchCreateModel.cs~RF66d3f1b.TMP
+++BranchCreateModel.cs~RF6749612.TMP
+++CustomerModel.cs~RF6799f9f.TMP
+++TransactionModel.cs~RF6a75fd7.TMP
+++BankAccountModel.cs~RF6aa17b4.TMP
+++BankAccountModel.cs~RF6aa59af.TMP
+++BankAccountModel.cs~RF6ab0fb0.TMP
+++BankAccountModel.cs~RF6aba597.TMP
+++ApplicationDbContext.cs~RF6b0a149.TMP
+++ApplicationDbContext.cs~RF6b14faa.TMP
+++СustomerBankAccountsModel.cs~RF6b2d679.TMP
+++BankAccountModel.cs~RF6b45c9c.TMP
+++ApplicationDbContext.cs~RF6b74df7.TMP
+++CustomerModel.cs~RF6b83951.TMP
+++CustomerModel.cs~RF6b8c574.TMP
+++ApplicationDbContext.cs~RF6be6a86.TMP
+++ApplicationDbContext.cs~RF6c9f52c.TMP
+++ApplicationDbContext.cs~RF6d19fd2.TMP
+++ApplicationDbContext.cs~RF6d2e477.TMP
+++omrdk4ex.hzn~
+++InitDataBase.cs
+i:{8a6c57d1-cffc-4ab0-834d-ce5ba53e65a4}:e:\documents\диплом\программа\банковская система\banksystemasp\banksystemasp.dal\initdatabase.cs
+++ApplicationDbContext.cs~RF8b7d696.TMP

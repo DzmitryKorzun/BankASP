@@ -1,0 +1,42 @@
+body * {
+  box-sizing: border-box;
+}
+body .registrationForm {
+  width: 300px;
+  margin: 50px auto 0 auto;
+  background: #f7f7f7;
+  border-radius: 10px;
+}
+body .registrationForm form {
+  padding: 15px 30px 30px 30px;
+}
+body .registrationForm form h1 {
+  text-align: center;
+  margin-top: 0;
+}
+body .registrationForm form div label {
+  font-weight: bold;
+  margin-left: 5px;
+}
+body .registrationForm form div input {
+  display: block;
+  width: 100%;
+  margin: 4px 0 10px 0;
+  padding: 10px 5px;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+}
+body .registrationForm form div input:focus {
+  border-color: #cbffcb;
+  outline: 2px solid #cbffcb;
+}
+body .registrationForm form button {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  background: #87d587;
+  border-radius: 7px;
+  color: #fff;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */

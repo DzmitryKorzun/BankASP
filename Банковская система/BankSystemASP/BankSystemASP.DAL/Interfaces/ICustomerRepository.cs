@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace BankSystemASP.DAL.Interfaces
 {
-    public interface IUserRepository : IBaseRepository<User>
+    public interface ICustomerRepository : IBaseRepository<Customer>
     {
-        User GetByEmail(string Email);
+        Customer GetByEmail(string Email);
     }
 }

@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace BankSystemASP.Helpers
+namespace BankSystemASP.Domain.Helpers
 {
     public static class HashPasswordHelper
     {

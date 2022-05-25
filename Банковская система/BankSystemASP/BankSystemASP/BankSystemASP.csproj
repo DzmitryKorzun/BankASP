@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <EmbeddedResource Remove="Resources\LanguageResource.Ru.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.16" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.16">
@@ -12,9 +16,13 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="MySql.Data" Version="8.0.29" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.0" />
   </ItemGroup>
 
+	
   <ItemGroup>
+    <None Include="Resources\Region\LanguageResRegion.Ru.resx" />
     <None Include="wwwroot\css\AuthenticationForm.css" />
     <None Include="wwwroot\css\ButtonStyle.css" />
     <None Include="wwwroot\css\RegistrationFormStyle.css" />
@@ -29,7 +37,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BankSystemASP.DAL\BankSystemASP.DAL.csproj" />
     <ProjectReference Include="..\BankSystemASP.Domain\BankSystemASP.Domain.csproj" />
-    <ProjectReference Include="..\Service\BankSystemASP.Service.csproj" />
+	  <ProjectReference Include="..\Service\BankSystemASP.Service.csproj" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>

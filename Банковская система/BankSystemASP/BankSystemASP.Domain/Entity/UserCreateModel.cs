@@ -23,22 +23,22 @@ namespace BankSystemASP.Domain.Entity
         public int Id { get; set; }
 
         [Required(ErrorMessage = surnameEmptyErrorString)]
-        [MaxLength(MaxLineLen, ErrorMessage = errorMaxLenString)]
-        [MinLength(MinLineLen, ErrorMessage = errorMinLenString)]
+    //    [MaxLength(MaxLineLen, ErrorMessage = errorMaxLenString)]
+    //    [MinLength(MinLineLen, ErrorMessage = errorMinLenString)]
         public string SurName { get; set; }
 
         [Required(ErrorMessage = nameEmptyErrorString)]
-        [MaxLength(MaxLineLen, ErrorMessage = errorMaxLenString)]
-        [MinLength(MinLineLen, ErrorMessage = errorMinLenString)]
+      //  [MaxLength(MaxLineLen, ErrorMessage = errorMaxLenString)]
+     //   [MinLength(MinLineLen, ErrorMessage = errorMinLenString)]
         public string Name { get; set; }
 
         [Required(ErrorMessage = patronymicEmptyErrorString)]
-        [MaxLength(MaxLineLen, ErrorMessage = errorMaxLenString)]
-        [MinLength(MinLineLen, ErrorMessage = errorMinLenString)]
+      //  [MaxLength(MaxLineLen, ErrorMessage = errorMaxLenString)]
+   //     [MinLength(MinLineLen, ErrorMessage = errorMinLenString)]
         public string Patronymic { get; set; }
         [Required(ErrorMessage = ageEmptyErrorString)]
-        [MaxLength(MaxAge, ErrorMessage = ageNumberErrorString)]
-        [MinLength(MinAge, ErrorMessage = ageNumberErrorString)]
+//[MaxLength(MaxAge, ErrorMessage = ageNumberErrorString)]
+   //     [MinLength(MinAge, ErrorMessage = ageNumberErrorString)]
         public int Age { get; set; }
 
         [Required(ErrorMessage = passwordEmptyErrorString)]
