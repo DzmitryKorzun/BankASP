@@ -6,18 +6,16 @@ using Microsoft.EntityFrameworkCore;
 using BankSystemASP;
 using BankSystemASP.Helpers;
 
+
 namespace BankSystemASP.DAL
 {
     public class ApplicationDbContext:DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-           // Database.EnsureDeleted();
-            Database.EnsureCreated();
-            
+            Database.EnsureCreated();            
         }
         #region DbSets
-        public DbSet<User> Users { get; set; }
         public DbSet<Branch> Branches { get; set; }
         public DbSet<Region> Regions { get; set; }
         public DbSet<City> Cities { get; set; }
@@ -34,7 +32,7 @@ namespace BankSystemASP.DAL
         #endregion
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<City>().HasOne(p => p.Region).WithMany(t => t.cities).HasForeignKey(p => p.idRegion);
+            modelBuilder.Entity<City>().HasOne(p => p.region).WithMany(t => t.cities).HasForeignKey(p => p.idRegion);
             modelBuilder.Entity<Addrees>().HasOne(p => p.streetType).WithMany(t => t.addrees).HasForeignKey(p => p.idStreetType);
             modelBuilder.Entity<Addrees>().HasOne(p => p.city).WithMany(t => t.addrees).HasForeignKey(p => p.idCity);
             modelBuilder.Entity<Branch>().HasOne(p => p.Addrees).WithMany(t => t.branches).HasForeignKey(p => p.IdAddress);
@@ -56,6 +54,12 @@ namespace BankSystemASP.DAL
             initDataBase.AddAddress();
             initDataBase.AddBranch();
             initDataBase.AddRole();
+
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.EnableSensitiveDataLogging();
         }
     }
 }

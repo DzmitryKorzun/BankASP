@@ -6,6 +6,12 @@ namespace BankSystemASP.Domain.Entity
 {
     public class Region
     {
+        public Region(int IdRegion, string name)
+        {
+            this.IdRegion = IdRegion;
+            this.name = name;
+        }
+
         [Key]
         public int IdRegion { get; set; }
         public string name { get; set; }

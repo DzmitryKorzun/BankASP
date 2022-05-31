@@ -28,10 +28,8 @@
     <None Include="wwwroot\css\RegistrationFormStyle.css" />
     <None Include="wwwroot\css\RegStyle.css" />
     <None Include="wwwroot\css\styles.css" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Pictures\" />
+    <None Include="wwwroot\Pictures\bank1.jpg" />
+    <None Include="wwwroot\Pictures\BankDeposits.jpg" />
   </ItemGroup>
 
   <ItemGroup>

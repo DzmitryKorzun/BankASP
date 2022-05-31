@@ -161,7 +161,6 @@ E:\Documents\Диплом\Программа\Банковская система
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Pages\moneyTransaction.cshtml.g.cs
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\dbSettings.json
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Users\MoneyTransaction.cshtml.g.cs
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BankSystemASP.Domain.dll
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BankSystemASP.Domain.pdb
@@ -169,7 +168,6 @@ E:\Documents\Диплом\Программа\Банковская система
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BankSystemASP.DAL.pdb
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BankSystemASP.Service.dll
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\BankSystemASP.Service.pdb
-E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Users\GetUsers.cshtml.g.cs
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Branch\Branches.cshtml.g.cs
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\bin\Debug\net5.0\MySqlConnector.dll
@@ -188,3 +186,4 @@ E:\Documents\Диплом\Программа\Банковская система
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Ru\BankSystemASP.resources.dll
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
 E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\Account\CustomerAccount.cshtml.g.cs
+E:\Documents\Диплом\Программа\Банковская система\BankSystemASP\BankSystemASP\obj\Debug\net5.0\Razor\Views\ExchangeRates\ExchangeRatesView.cshtml.g.cs

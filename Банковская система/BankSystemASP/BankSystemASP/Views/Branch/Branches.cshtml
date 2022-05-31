@@ -1,57 +1,63 @@
-﻿@using BankSystemASP.Domain.Entity
-@model IEnumerable<Branch>
-
+﻿@using BankSystemASP.Domain.AuxiliaryModel;
+@model IEnumerable<BranchessAddress>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Registration</title>
   <link href="@Url.Content("~/css/BranchStyle.css")" rel="stylesheet" type="text/css" />
+  <link href="@Url.Content("~/css/styles.css")" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-<div class="base-block">
+
+<body>
+  <div class="topnav">
+  <div class="mainLogo">
+  <h1>ДмитриБанк</h1>
+   </div>
+    <a href='@Url.Action("Index","Home")'>Главная</a>
+    <a href='@Url.Action("About","Home")'>О банке</a>
+    <a href='@Url.Action("ExchangeRatesView","ExchangeRates")'>Курсы</a>
+    <a href='@Url.Action("Branches","Branch")'>Филлиалы</a>
+  </div>
+
+  <div class="base-block">
   <div class="filter">
     <div class="filter-wrapper">
       <span>Область</span>
       <select multiple name="">
         <option disabled>Выберите область</option>
-        <option value="Минская">Минская</option>
-        <option value="Гродненская">Гродненская</option>
-        <option value="Гомельсая">Гомельсая</option>
+        @foreach (var item in Model.ToArray()[0].regions)
+        {
+            <option value="@item.name">@item.name</option>
+        }
       </select>
     </div>
     <div class="filter-wrapper">
       <span>Город</span>
       <select multiple name="">
         <option disabled>Выберите город</option>
-        <option value="Минск">Минск</option>
-        <option value="Гродно">Гродно</option>
-        <option value="Гомель">Гомель</option>
+        @foreach (var item in Model.ToArray()[0].cities)
+        {
+            <option value="@item.name">@item.name</option>
+        }
       </select>
     </div>
     <div class="filter-wrapper">
       <span>Улица</span>
       <select multiple name="">
         <option disabled>Выберите улицу</option>
-        <option value="Заречная">Заречная</option>
-        <option value="Зеленая">Зеленая</option>
-        <option value="Луговая">Луговая</option>
+        @foreach (var item in Model)
+        {
+            <option value="@item.addrees.">@item.AddreesStreet</option>
+        }
       </select>
     </div>
-    <div class="filter-wrapper">
-      <span>Номер</span>
-      <select multiple name="">
-        <option disabled>Выберите номер</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-      </select>
-    </div>
+  
     <div class="checkbox">
       <input type="checkbox" id="weekend" name="weekend">
       <label for="weekend">Работает в выходные</label>
@@ -61,11 +67,11 @@
       <label for="disabled-person">Адаптировано для инвалидов</label>
     </div>
     <div class="checkbox">
-      <input type="checkbox" id="wi-fi" name="wi-fi">
+      <input type="checkbox" id="wi-fi" name="wi-fi" type="submit">
       <label for="wi-fi">Наличие Wi-fi</label>
     </div>
     <div class="checkbox">
-      <input type="checkbox" id="entry" name="entry">
+      <input type="checkbox" id="entry" name="entry" >
       <label for="entry">Предварительная запись</label>
     </div>
     <div class="checkbox">
@@ -73,7 +79,7 @@
       <label for="parking">Наличие парковки</label>
     </div>
     <div class="checkbox">
-      <input type="checkbox" id="queue" name="queue">
+      <input type="checkbox" id="queue" name="queue" >
       <label for="queue">Электронная очередь</label>
     </div>
   </div>
@@ -93,7 +99,7 @@
     <div class="bank-info">
         <div class="main info">
           <div><span>Номер:</span> @item.Namber</div>
-          <div><span>Адрес: @item</span> @item.</div>
+          <div><span>Адрес: @item.AddreesRegion, район @item.AddreesCity, @item.AddreesStreet, @item.Building </span> </div>
         </div>
         <div class="work-time">
           <div><span>Время работы:</span></div>
@@ -101,8 +107,9 @@
         </div>
     </div>
  }
- 
-</div>
+ </div>
+
+
 
 </body>
 </html>

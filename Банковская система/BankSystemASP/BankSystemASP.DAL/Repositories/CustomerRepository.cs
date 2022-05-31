@@ -32,6 +32,11 @@ namespace BankSystemASP.DAL.Repositories
             throw new NotImplementedException();
         }
 
+        public IQueryable<Customer> GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<List<Customer>> Select() => await dbContext.Customers.ToListAsync();
 
         async Task IBaseRepository<Customer>.Create(Customer entity)
@@ -39,11 +44,6 @@ namespace BankSystemASP.DAL.Repositories
             dbContext.Add(entity);
 
             await dbContext.SaveChangesAsync();
-        }
-
-        Task<List<Customer>> IBaseRepository<Customer>.GetById(int id)
-        {
-            throw new NotImplementedException();
         }
     }
 }

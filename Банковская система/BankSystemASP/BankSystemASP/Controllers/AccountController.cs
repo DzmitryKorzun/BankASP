@@ -41,20 +41,19 @@ namespace BankSystemASP.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login(Customer model)
+        public async Task<IActionResult> Login(LoginViewModel model)
         {
-            var response = await customerService.Login(model);
+            Customer customerLog = new Customer() { Email = model.EmailPerson, HASHED_PASSWORD = model.Password };
+            var response = await customerService.Login(customerLog);
             if (response.Status == Domain.Enum.StatusCode.OK)
             {
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
                     new ClaimsPrincipal(response.Data));
 
-                return RedirectToAction("CustomerAccount", "Account");
+                return RedirectToAction("CustomerAccount", "Account", model);
             }
             ModelState.AddModelError("", response.Description);
-
-            return View(model);
-
+            return RedirectToAction("CustomerAccount", "Account", model); 
         }
 
 

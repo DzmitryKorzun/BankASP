@@ -12,7 +12,6 @@ namespace BankSystemASP.Service.Interfaces
 
     public interface IAccountService
     {
-       
 
     }
 }

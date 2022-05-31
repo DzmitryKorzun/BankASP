@@ -1,6 +1,6 @@
 ﻿@using BankSystemASP.Domain.Entity
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-@model Customer
+@model LoginViewModel
 <!doctype html>
 <html lang="ru">
 
@@ -8,48 +8,56 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Банк</title>
-  <link href="@Url.Content("~/css/styles.css")" rel="stylesheet" type="text/css" />
-  <link href="@Url.Content("~/css/RegStyle.css")" rel="stylesheet" type="text/css" />
-  <link href="@Url.Content("~/css/ButtonStyle.css")" rel="stylesheet" type="text/css" />
-  <link href="@Url.Content("~/css/AuthenticationForm.css")" rel="stylesheet" type="text/css" />
-  <link href="@Url.Content("~/css/RegistrationFormStyle.css")" rel="stylesheet" type="text/css" />
+  <link href="@Url.Content("~/css/styles.css")" rel="stylesheet" type="text/css"/>
+  <link href="@Url.Content("~/css/RegStyle.css")" rel="stylesheet" type="text/css"/>
+  <link href="@Url.Content("~/css/ButtonStyle.css")" rel="stylesheet" type="text/css"/>
+  <link href="@Url.Content("~/css/AuthenticationForm.css")" rel="stylesheet" type="text/css"/>
+  <link href="@Url.Content("~/css/RegistrationFormStyle.css")" rel="stylesheet" type="text/css"/>
+  <link href="@Url.Content("~/css/SliderStyle.css")" rel="stylesheet" type="text/css"/>
+  <link href="@Url.Content("~/js/")" type="script"/>
+  <script src="js/Slider.js"></script>
 </head>
 
 <body>    
-  <div class="form-popup" id="myForm">
-    <form class="form-container">
-      <h1>Логин</h1>  
-      <label for="email"><b>Почта</b></label>
-      <input type="text" placeholder="Введите Почту" name="email" required>  
-      <label for="psw"><b>Пароль</b></label>
-      <input type="password" placeholder="Введите Пароль" name="psw" required>  
-      <button type="submit" class="btn">Логин</button>
-      <button type="submit" class="btn cancel" onclick="closeForm()">Закрыть</button>
-    </form>
-  </div>
-  
+
+
     <div class="topnav">
       <div class="mainLogo">
         <h1>ДмитриБанк</h1>
       </div>
-        <a>Главная</a>
-        <a>О банке</a>
-        <a>Курсы</a>
+        <a href='@Url.Action("Index","Home")'>Главная</a>
+        <a href='@Url.Action("About","Home")'>О банке</a>
+        <a href='@Url.Action("ExchangeRatesView","ExchangeRates")'>Курсы</a>
         <a href='@Url.Action("Branches","Branch")'>Филлиалы</a>
       </div>
+
+      <form action="/Account/Login" method="post">
       <div class="authenticationForm">
         <div class="text-field">
           <label class="text-field__label" for="login">Логин</label>
-          <input class="text-field__input" type="text" name="login" id="login" placeholder="Login" asp-for = "Email">
+          <input class="text-field__input" type="text" name="login" id="login" placeholder="Login" asp-for = "@Model.EmailPerson">
         </div>
         <div class="text-field">
         <label class="text-field__label">Пароль</label>
-        <input class="text-field__input" type="password" name="password" id="password" placeholder="Password" asp-for = "HASHED_PASSWORD">
+        <input class="text-field__input" type="password" name="password" id="password" placeholder="Password" asp-for = "@Model.Password">
         </div>
         <div class="authentication-wrapper">
-          <button class="signIn-button authentication-button" onclick="location.href='@Url.Action("Login", "Account")'">Войти</button>
-          <button class="registration-button authentication-button" type="submit" onclick="location.href='@Url.Action("Register", "Account")'">Регистрация</button>
+          <button class="signIn-button authentication-button" type="submit">Войти</button>
+          <button class="registration-button authentication-button" asp-controller="Account" asp-action="Register">Регистрация</button>
         </div>
       </div>
+      </form>
+
+      <div id="carousel">
+  <figure id="spinner">
+    <img src="Pictures/BankDeposits.jpg">
+    <img src="Pictures/ExchangeRates.jpg">
+    <img src="Pictures/bank1.jpg">
+  </figure>
+</div>
+<span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
+<span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
+
+
 </body>
 </html>

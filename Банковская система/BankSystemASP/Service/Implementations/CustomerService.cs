@@ -29,30 +29,30 @@ namespace Service.Implementations
             throw new NotImplementedException();
         }
 
-        public async Task<IBaseResponse<IEnumerable<Customer>>> GetAllUsers()
-        {
-            var baseResponse = new BaseResponse<IEnumerable<Customer>>();
-            try
-            {
-                var customers = await customerRepository.GetById(1);
-                if (customers.Count == 0)
-                {
-                    baseResponse.Description = "Нет пользователей :-(";
-                    baseResponse.Status = StatusCode.UsersNotFound;
-                    return baseResponse;
-                }
-                baseResponse.Data = customers;
-                baseResponse.Status = StatusCode.OK;
-                return baseResponse;
-            }
-            catch (Exception ex)
-            {
-                return new BaseResponse<IEnumerable<Customer>>()
-                {
-                    Description = $"[GetAllUser] : {ex.Message}"
-                };                
-            }
-        }
+        //public async Task<IBaseResponse<IEnumerable<Customer>>> GetAllUsers()
+        //{
+        //    var baseResponse = new BaseResponse<IEnumerable<Customer>>();
+        //    try
+        //    {
+        //        var customers = await customerRepository.GetById(1);
+        //        if (customers.Count == 0)
+        //        {
+        //            baseResponse.Description = "Нет пользователей :-(";
+        //            baseResponse.Status = StatusCode.UsersNotFound;
+        //            return baseResponse;
+        //        }
+        //        baseResponse.Data = customers;
+        //        baseResponse.Status = StatusCode.OK;
+        //        return baseResponse;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return new BaseResponse<IEnumerable<Customer>>()
+        //        {
+        //            Description = $"[GetAllUser] : {ex.Message}"
+        //        };                
+        //    }
+        //}
 
         private ClaimsIdentity Authenticate(Customer customer)
         {

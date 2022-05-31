@@ -39,6 +39,11 @@ namespace BankSystemASP
             services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<IBranchRepository, BranchRepository>();
             services.AddScoped<IBranchServise, BranchService>();
+            services.AddScoped<IAddressRepository, AddressRepository>();
+            services.AddScoped<IAddressService, AddressService>();
+            services.AddScoped<IRegionRepository, RegionRepository>();
+            services.AddScoped<ICityRepository, CityRepository>();
+
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
             {
                 options.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Account/Login");
@@ -57,8 +62,7 @@ namespace BankSystemASP
             app.UseRouting();
             app.UseStaticFiles();
             app.UseAuthentication();
-            app.UseAuthorization();
-            
+            app.UseAuthorization();            
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

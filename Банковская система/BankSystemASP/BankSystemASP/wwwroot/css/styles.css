@@ -171,3 +171,68 @@ h1{
 .slider__indicator_active{
     background-color:#fff
 }
+
+* body .banner {
+    background: url("Pictures/Ofice.jpg") center;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 60px;
+}
+* body .banner:after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 0;
+    }
+
+    * body .banner .content {
+        z-index: 1;
+    }
+
+        * body .banner .content h2 {
+            color: #fff;
+            text-shadow: 5px 5px 5px black;
+            font-size: 36px;
+        }
+
+        * body .banner .content a {
+            background: #73d271;
+            width: 200px;
+            text-align: center;
+            margin-top: 25px;
+            padding: 15px 0;
+            font-size: 20px;
+            border-radius: 15px;
+        }
+
+            * body .banner .content a:hover {
+                cursor: pointer;
+                background: #709d70;
+            }
+
+* body header .content {
+    display: flex;
+    align-items: center;
+}
+
+    * body header .content .logo {
+        color: #fff;
+    }
+
+    * body header .content nav {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+        * body header .content nav .menu-item {
+            padding: 10px 20px;
+            font-size: 18px;
+        }

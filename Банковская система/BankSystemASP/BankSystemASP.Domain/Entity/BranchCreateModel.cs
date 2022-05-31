@@ -10,7 +10,9 @@ namespace BankSystemASP.Domain.Entity
 {
     public  class Branch
     {
-        public Branch(int IdBranch, int Namber, int IdAddress, byte IsPreEntry, byte IsWorksOnWeekends, byte IsForInvalid, byte IsHaveWiFi, byte IsHaveParking, byte IsElectronicQueue, string WorkTime)
+        public Branch(int IdBranch, int Namber, int IdAddress, 
+            byte IsPreEntry, byte IsWorksOnWeekends, byte IsForInvalid, 
+            byte IsHaveWiFi, byte IsHaveParking, byte IsElectronicQueue, string WorkTime)
         {
             this.IdBranch = IdBranch;
             this.Namber = Namber;
@@ -22,6 +24,7 @@ namespace BankSystemASP.Domain.Entity
             this.IsHaveParking = IsHaveParking;
             this.IsElectronicQueue = IsElectronicQueue;
             this.WorkTime = WorkTime;
+            this.Addrees = Addrees;
         }
 
 
