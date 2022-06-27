@@ -1,0 +1,98 @@
+﻿
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Банк</title>
+  <link href="@Url.Content("~/css/styles.css")" rel="stylesheet" type="text/css"/>
+    <link href="@Url.Content("~/css/AboutBankStyle.css")" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+    <div class="topnav">
+      <div class="mainLogo">
+        <h1>ДмитриБанк</h1>
+      </div>
+        <a href='@Url.Action("Index","Home")'>Главная</a>
+        <a href='@Url.Action("About","Home")'>О банке</a>
+        <a href='@Url.Action("ExchangeRatesView","ExchangeRates")'>Курсы</a>
+        <a href='@Url.Action("Branches","Branch")'>Филлиалы</a>
+      </div>
+
+      <section id="about-work" class="about-work">
+  <div class="content">
+    <h3>Почему мы лучший банк</h3>
+    <hr>
+    <div class="about-work-wrapper">
+      <div class="work-info left-column">
+        <div class="work-title">Техническая поддержка 24/7</div>
+        <div class="work-text">Звоните нам в любое время суток. Наши специалисты помогут вам всегда!</div>
+        <div class="work-title work-margin">Надежность</div>
+        <div class="work-text">Все ваши данные находятся в максимально защищенном месте</div>
+      </div>
+      <div class="work-info work-image">
+        <img src="/Pictures/bankLogo.png" alt="">
+      </div>
+      <div class="work-info right-column">
+        <div class="work-title">Выгодные проценты по кредитам</div>
+        <div class="work-text">Процентная ставка по кредитам почти как в Европе и не превышает 10%</div>
+        <div class="work-title  work-margin">Переводы без комиссии</div>
+        <div class="work-text">Устали от постоянной комиссии за каждый перевод стредств другу/подруге, 
+            ростевеннику и т.д. С нашим банком вы навсегда забудете про оплату переводов</div>
+      </div>
+    </div>
+    <div class="text-after">Как пользоваться нашим банком?</div>
+        <div class="text-after">Сейчас все расскажем поэтапно</div>
+  </div>
+</section>
+<section id="about" class="about">
+  <div class="content">
+    <div class="about-item">
+      <div class="item-text">
+        <h3>Шаг 1</h3>
+        <h2>Вы явно видели уже статовую страницу</h2>
+        <hr>
+        <div>Здесь вы можете наблюдать окно авторизации. Если вы попали к нам впервые, то нужно пройти регистрацию. Тыкните по кнопке "Регистрация"</div>
+      </div>
+      <div class="item-image">
+        <img src="~/Pictures/Log.png">
+      </div>
+    </div>
+    <div class="about-item">
+      <div class="item-image">
+        <img src="~/Pictures/Reg.png">
+      </div>
+      <div class="item-text">
+        <h3>Шаг 2</h3>
+        <h2>Регистрация</h2>
+        <hr>
+        <div>Заполните все поля формы регистрации. Заполняйте внимательно, т.к. изменить данные уже будет нельзя</div>
+      </div>
+    </div>
+    <div class="about-item">
+      <div class="item-text">
+        <h3>Шаг 3</h3>
+        <h2></h2>
+        <hr>
+        <div>После успешной регистрации, вы заходите в свой кабинет</div>
+      </div>
+      <div class="item-image">
+        <img src="~/Pictures/Acc.png">
+      </div>
+    </div>
+    <div class="about-item">
+      <div class="item-image">
+        <img src="img/udobrenie.jpeg" alt="">
+      </div>
+      <div class="item-text">
+        <h3>Шаг 4</h3>
+        <h2>Счета</h2>
+        <hr>
+        <div>Создайте свой первый счет и добро пожаловать к нам!</div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>

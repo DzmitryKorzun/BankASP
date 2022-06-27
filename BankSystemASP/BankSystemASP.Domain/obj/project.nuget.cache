@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "6+kTAHDqix7V7gweG1E6OSwlXoNnt+ygvp8jDXBS7G16xeFLKiNcm94tnuk3YLd8WOzmhFAmx3r5Ci3FWu6wTQ==",
+  "success": true,
+  "projectFilePath": "E:\\Documents\\Диплом\\Программа\\Банковская система\\BankSystemASP\\BankSystemASP.Domain\\BankSystemASP.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\DIMA\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

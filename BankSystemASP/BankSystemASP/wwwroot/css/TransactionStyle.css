@@ -1,0 +1,190 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.transactionPage {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+    .transactionPage .text {
+        margin: 10px 0;
+    }
+
+    .transactionPage button {
+        width: 45%;
+        padding: 10px 0;
+        border: none;
+        background: #87d587;
+        border-radius: 7px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+        .transactionPage button:hover {
+            cursor: pointer;
+            box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+        }
+
+    .transactionPage .info-block {
+        width: 70%;
+    }
+
+        .transactionPage .info-block .sort {
+            float: right;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+            .transactionPage .info-block .sort span,
+            .transactionPage .info-block .sort select {
+                display: inline-block;
+                margin: 0;
+            }
+
+            .transactionPage .info-block .sort select {
+                margin-left: 10px;
+            }
+
+        .transactionPage .info-block .bank-info {
+            display: flex;
+            border: 1px solid #515353;
+            border-radius: 5px;
+            padding: 5px;
+            margin-bottom: 10px;
+            min-height: 96px;
+            text-align: left;
+        }
+
+            .transactionPage .info-block .bank-info span {
+                margin: 0;
+                font-weight: bold;
+            }
+
+            .transactionPage .info-block .bank-info > div {
+                width: 50%;
+                padding: 5px;
+            }
+
+            .transactionPage .info-block .bank-info .work-time button {
+                margin: 10px auto 0 auto;
+                width: 80%;
+                padding: 5px 0;
+            }
+
+    .transactionPage select {
+        display: block;
+        width: 45%;
+        margin: 4px 0 10px 0;
+        padding: 10px 5px;
+        border-radius: 3px;
+        border: 1px solid lightgrey;
+    }
+
+        .transactionPage select:focus {
+            border-color: #cbffcb;
+            outline: 2px solid #cbffcb;
+        }
+
+    .transactionPage .transactionForm {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 600px;
+        margin: 0 auto 20px auto;
+    }
+
+        .transactionPage .transactionForm .transactionFormData {
+            width: 45%;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: left;
+            color: #fff;
+            font-size: 18px;
+            font-family: monospace;
+        }
+
+            .transactionPage .transactionForm .transactionFormData input {
+                width: 100%;
+                margin: 4px 0 10px 0;
+                padding: 10px 5px;
+                border-radius: 3px;
+                border: 1px solid lightgrey;
+            }
+
+        .transactionPage .transactionForm .from {
+            background-color: #8cd4dd;
+        }
+
+        .transactionPage .transactionForm .to {
+            background-color: #9dbae1;
+        }
+
+        .transactionPage .transactionForm .transactionForm_arrow {
+            width: 10%;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+            .transactionPage .transactionForm .transactionForm_arrow i {
+                border: solid green;
+                border-width: 0 3px 3px 0;
+                display: inline-block;
+                padding: 3px;
+                width: 20px;
+                height: 20px;
+            }
+
+            .transactionPage .transactionForm .transactionForm_arrow .right {
+                transform: rotate(-45deg) translate(-50%, -50%);
+                position: absolute;
+                top: 45%;
+            }
+
+    .transactionPage .transactionWrapper {
+        width: 300px;
+        margin: auto;
+    }
+
+        .transactionPage .transactionWrapper .balance {
+            margin: 10px 0;
+            font-size: 18px;
+            font-family: system-ui;
+            font-weight: 600;
+        }
+
+        .transactionPage .transactionWrapper .transactionButton input {
+            width: 100%;
+            margin: 4px 0 10px 0;
+            padding: 10px 5px;
+            border-radius: 3px;
+            border: 1px solid lightgrey;
+        }
+
+            .transactionPage .transactionWrapper .transactionButton input:focus {
+                border-color: #cbffcb;
+                outline: 2px solid #cbffcb;
+            }
+
+        .transactionPage .transactionWrapper .transactionButton button {
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+            border: none;
+            background: #87d587;
+            border-radius: 7px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+            .transactionPage .transactionWrapper .transactionButton button:hover {
+                cursor: pointer;
+                box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+                border-bottom: 3px solid #6bb66b;
+            }
+

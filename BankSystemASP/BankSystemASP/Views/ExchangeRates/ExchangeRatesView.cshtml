@@ -1,0 +1,152 @@
+﻿@using BankSystemASP.Domain.AuxiliaryModel
+@model ExchangeViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Банк</title>
+  <link href="@Url.Content("~/css/styles.css")" rel="stylesheet" type="text/css"/>
+    <link href="@Url.Content("~/css/CommonStyles.css")" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+    <div class="topnav">
+      <div class="mainLogo">
+        <h1>ДмитриБанк</h1>
+      </div>
+        <a href='@Url.Action("Index","Home")'>Главная</a>
+        <a href='@Url.Action("About","Home")'>О банке</a>
+        <a href='@Url.Action("ExchangeRatesView","ExchangeRates")'>Курсы</a>
+        <a href='@Url.Action("Branches","Branch")'>Филлиалы</a>
+      </div>
+      <section class="exchange-rates">
+  <div class="content">
+    <div class="rates-wrapper">
+      <div class="select-parameters">Выберите параметры</div>
+      <form action="/ExchangeRates/ExchangeRatesView" method="post" class="parameters">
+        <div class="select-wrapper">
+          <div class="bank-name">
+            <div class="select-title">Банк</div>
+            <select asp-for="SelectedBranchNumber">
+              @foreach (var bankNumber in Model.adreesDictionary)
+              {
+                  <option value="@bankNumber.Key">@bankNumber.Value</option>
+              }
+            </select>
+          </div>
+          <div class="bank-date">
+            <div>
+              <div class="select-title">День</div>
+              <select name="day" asp-for="Day">                
+                <option value="1" selected="selected">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+              </select>
+            </div>
+            <div>
+              <div class="select-title">Месяц</div>
+              <select name="month" asp-for="Month">
+                <option value="1" selected="selected">Январь</option>
+                <option value="2">Февраль</option>
+                <option value="3">Март</option>
+                <option value="4">Апрель</option>
+                <option value="5">Май</option>
+                <option value="6">Июнь</option>
+                <option value="7">Июль</option>
+                <option value="8">Август</option>
+                <option value="9">Сентябрь</option>
+                <option value="10">Октябрь</option>
+                <option value="11">Ноябрь</option>
+                <option value="12">Декабрь</option>
+              </select>
+            </div>
+            <div>
+              <div class="select-title">Год</div>
+              <select name="year" asp-for="Year">
+                <option>Выберите номер</option>
+                <option value="2020" selected="selected">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        @foreach (var currency in Model.AllCurrency)
+        {
+          <div class="checkbox">
+            <input type="radio" value="@currency.IdCurrency" asp-for="IdSelectedCurrency">
+            <label for="currency1">@currency.Name</label>
+          </div>  
+        }                    
+        <div class="buttons">
+          <button class="btn" type="submit">Показать</button>
+          <button class="btn" type="reset">Очистить</button>
+        </div>
+      </form>
+      <div class="main-data">
+        <h2>Курсы валют на <span>@string.Format("{0:d2}", Model.Day)</span>.<span>@string.Format("{0:d2}", Model.Month)</span>.<span>@string.Format("{0:d4}", Model.Year)</span> г.</h2>
+        <table cellspacing="0">
+          <tr>
+            <td class="align-center" rowspan="2">Структурное подразделение</td>
+            <td class="align-center" colspan="2">Валюта<br>@Model?.SelectedCurrencyName</td>
+            <td class="align-center" rowspan="2">Адрес</td>
+            <td class="align-center" rowspan="2">Время работы</td>
+          </tr>
+          <tr>
+            <td class="align-center">Покупка</td>
+            <td class="align-center">Продажа</td>
+          </tr>
+          @if(Model.Branch != null)
+          {
+            <tr>            
+              <td>@Model.selectedBranchAdressReturn</td>
+              <td>@Model.Exchange.BuyRate</td>
+              <td>@Model.Exchange.SalesRate</td>
+              <td>@Model.selectedBranchAdressReturn</td>
+              <td>@Model.Branch.WorkTime</td>
+            </tr>
+          }          
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+</body>
+
+
+

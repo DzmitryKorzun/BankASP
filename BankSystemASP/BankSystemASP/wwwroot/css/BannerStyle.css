@@ -1,0 +1,67 @@
+﻿html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+    * body .content {
+        width: 1270px;
+        margin: auto;
+    }
+
+    * body a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }
+
+        * body a:hover {
+            cursor: pointer;
+        }
+
+    * body hr {
+        width: 80px;
+        border: 1px solid green;
+        margin: 5px auto;
+    }
+
+    * body img {
+        width: 100%;
+    }
+
+    * body .banner {
+        background: url("/Pictures/Ofice.jpg") center;
+        height: 400px;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+        * body .banner:after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 0;
+        }
+
+        * body .banner .content {
+            z-index: 1;
+        }
+
+            * body .banner .content h2 {
+                color: #fff;
+                text-shadow: 5px 5px 5px black;
+                font-size: 36px;
+            }
+
+          
+   

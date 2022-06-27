@@ -1,0 +1,72 @@
+﻿@using BankSystemASP.Domain.Entity
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model LoginViewModel
+
+
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Банк</title>
+  <link href="@Url.Content("~/css/styles.css")" rel="stylesheet" type="text/css"/>
+  <link href="@Url.Content("~/css/RegStyle.css")" rel="stylesheet" type="text/css"/>
+  <link href="@Url.Content("~/css/ButtonStyle.css")" rel="stylesheet" type="text/css"/>
+  <link href="@Url.Content("~/css/AuthenticationForm.css")" rel="stylesheet" type="text/css"/>
+  <link href="@Url.Content("~/css/RegistrationFormStyle.css")" rel="stylesheet" type="text/css"/>
+  <link href="@Url.Content("~/css/SliderStyle.css")" rel="stylesheet" type="text/css"/>
+    <link href="@Url.Content("~/css/BannerStyle.css")" rel="stylesheet" type="text/css"/>
+  <script src="js/Slider.js"></script>
+</head>
+<body>    
+    <div class="topnav">
+      <div class="mainLogo">
+        <h1>ДмитриБанк</h1>
+      </div>
+        <a href='@Url.Action("Index","Home")'>Главная</a>
+        <a href='@Url.Action("About","Home")'>О банке</a>
+        <a href='@Url.Action("ExchangeRatesView","ExchangeRates")'>Курсы</a>
+        <a href='@Url.Action("Branches","Branch")'>Филлиалы</a>
+      </div>
+      <section id="home" class="banner">
+        <div class="content">
+            <h2>Ваш самый лучший банк!</h2>
+
+      <form action="/Account/Login" method="post" style="z-index:5">
+        <div class="authenticationForm">
+        <div class="text-field">
+          <label class="text-field__label">Email</label>
+          <input class="text-field__input" type="text" name="EmailPerson" id="EmailPerson" placeholder="Email" asp-for = "EmailPerson">
+        </div>
+        <div class="text-field">
+          <label class="text-field__label">Пароль</label>
+          <input class="text-field__input" type="password" name="password" id="password" placeholder="Password" asp-for = "Password">
+        </div>
+        <div class="authentication-wrapper">
+          <button class="signIn-button authentication-button" type="submit">Войти</button>
+          <button class="registration-button authentication-button" asp-controller="Account" asp-action="Register">Регистрация</button>
+        </div>
+      </div>
+      </form>
+        </div>
+
+    </section>
+      <div id="carousel">
+  <figure id="spinner">
+    <img src="Pictures/1.jpg">
+    <img src="Pictures/2.jpg">
+    <img src="Pictures/3.jpg">
+    <img src="Pictures/4.jpg">
+    <img src="Pictures/5.jpg">
+    <img src="Pictures/6.jpg">
+    <img src="Pictures/7.jpg">
+    <img src="Pictures/8.jpg">
+  </figure>
+</div>
+<span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
+<span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
+
+
+</body>
+</html>

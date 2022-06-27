@@ -1,0 +1,377 @@
+﻿body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body .content header {
+    display: flex;
+    align-items: center;
+}
+
+    body .content header nav {
+        display: flex;
+        align-items: center;
+    }
+
+body img {
+    width: 100%;
+}
+
+body hr {
+    width: 80px;
+    border: 1px solid green;
+    margin: 5px auto;
+}
+
+body .about-work {
+    padding: 30px 0;
+}
+
+    body .about-work .content {
+        width: 1270px;
+        margin: auto;
+    }
+
+    body .about-work .text-after {
+        text-align: center;
+    }
+
+    body .about-work h3 {
+        text-align: center;
+        font-size: 22px;
+        color: #000;
+    }
+
+    body .about-work hr {
+        margin-bottom: 20px;
+    }
+
+    body .about-work .about-work-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        body .about-work .about-work-wrapper .work-info {
+            width: 30%;
+        }
+
+            body .about-work .about-work-wrapper .work-info .work-title {
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+
+            body .about-work .about-work-wrapper .work-info .work-margin {
+                margin-top: 20px;
+            }
+
+        body .about-work .about-work-wrapper .left-column {
+            text-align: right;
+        }
+
+        body .about-work .about-work-wrapper .right-column {
+            text-align: left;
+        }
+
+        body .about-work .about-work-wrapper .work-image img {
+            width: 100%;
+        }
+
+body .about {
+    padding: 20px 0;
+}
+
+    body .about .content {
+        width: 1270px;
+        margin: auto;
+    }
+
+        body .about .content .about-item {
+            display: flex;
+            justify-content: space-between;
+        }
+
+            body .about .content .about-item .item-text {
+                width: 60%;
+            }
+
+            body .about .content .about-item .item-image {
+                width: 35%;
+            }
+
+            body .about .content .about-item hr {
+                margin: 20px 0;
+            }
+
+body .registrationForm {
+    width: 400px;
+    margin: 50px auto 0 auto;
+    background: #f7f7f7;
+    border-radius: 10px;
+}
+
+    body .registrationForm form {
+        padding: 15px 30px 30px 30px;
+    }
+
+        body .registrationForm form h1 {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        body .registrationForm form div label {
+            font-weight: bold;
+            margin-left: 5px;
+        }
+
+        body .registrationForm form div input {
+            display: block;
+            width: 100%;
+            margin: 4px 0 10px 0;
+            padding: 10px 5px;
+            border-radius: 3px;
+            border: 1px solid lightgrey;
+        }
+
+            body .registrationForm form div input:focus {
+                border-color: #cbffcb;
+                outline: 2px solid #cbffcb;
+            }
+
+        body .registrationForm form button {
+            width: 100%;
+            padding: 10px 0;
+            border: none;
+            background: #87d587;
+            border-radius: 7px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+body .base-block {
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+    background: #f7f7f7;
+    display: flex;
+    width: 650px;
+    max-height: 670px;
+    overflow-y: auto;
+}
+
+    body .base-block span {
+        font-weight: bold;
+        margin-left: 5px;
+    }
+
+    body .base-block select {
+        display: block;
+        width: 100%;
+        margin: 4px 0 10px 0;
+        padding: 10px 5px;
+        border-radius: 3px;
+        border: 1px solid lightgrey;
+    }
+
+        body .base-block select:focus {
+            border-color: #cbffcb;
+            outline: 2px solid #cbffcb;
+        }
+
+    body .base-block button {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        border: none;
+        background: #87d587;
+        border-radius: 7px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+        body .base-block button:hover {
+            cursor: pointer;
+            box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+            border-bottom: 3px solid #6bb66b;
+        }
+
+    body .base-block .filter {
+        width: 30%;
+        padding: 5px;
+    }
+
+        body .base-block .filter .filter-wrapper > * {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        body .base-block .filter .checkbox {
+            margin-bottom: 5px;
+        }
+
+    body .base-block .info-block {
+        width: 70%;
+    }
+
+        body .base-block .info-block .sort {
+            float: right;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+            body .base-block .info-block .sort span,
+            body .base-block .info-block .sort select {
+                display: inline-block;
+                margin: 0;
+            }
+
+            body .base-block .info-block .sort select {
+                margin-left: 10px;
+            }
+
+        body .base-block .info-block .bank-info {
+            display: flex;
+            border: 1px solid #515353;
+            border-radius: 5px;
+            padding: 5px;
+            margin-bottom: 10px;
+            min-height: 96px;
+        }
+
+            body .base-block .info-block .bank-info span {
+                margin: 0;
+            }
+
+            body .base-block .info-block .bank-info > div {
+                width: 50%;
+                padding: 5px;
+            }
+
+            body .base-block .info-block .bank-info .work-time button {
+                margin: 10px auto 0 auto;
+                width: 80%;
+                padding: 5px 0;
+            }
+
+    body .base-block .check-info {
+        max-height: 300px;
+        overflow-y: auto;
+        margin-bottom: 10px;
+    }
+
+    body .base-block hr {
+        width: 100%;
+    }
+
+    body .base-block .date-info {
+        max-height: 300px;
+        overflow-y: auto;
+    }
+
+        body .base-block .date-info .date-filter {
+            margin: 10px 0;
+        }
+
+        body .base-block .date-info .bank-info .transaction-info {
+            width: 100%;
+        }
+
+body .exchange-rates .content {
+    width: 1270px;
+    margin: auto;
+}
+
+    body .exchange-rates .content .rates-wrapper .checkbox {
+        margin-bottom: 5px;
+    }
+
+    body .exchange-rates .content .rates-wrapper .select-parameters {
+        padding: 20px;
+        background: #266a26;
+        color: #FFF;
+    }
+
+    body .exchange-rates .content .rates-wrapper .parameters {
+        padding: 20px;
+    }
+
+        body .exchange-rates .content .rates-wrapper .parameters .select-wrapper {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+            body .exchange-rates .content .rates-wrapper .parameters .select-wrapper > div {
+                width: 50%;
+                padding: 0 10px;
+            }
+
+            body .exchange-rates .content .rates-wrapper .parameters .select-wrapper .select-title {
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+
+            body .exchange-rates .content .rates-wrapper .parameters .select-wrapper select {
+                display: block;
+                width: 100%;
+                padding: 10px 5px;
+                border-radius: 3px;
+                border: 1px solid lightgrey;
+            }
+
+                body .exchange-rates .content .rates-wrapper .parameters .select-wrapper select:focus {
+                    border-color: #cbffcb;
+                    outline: 2px solid #cbffcb;
+                }
+
+            body .exchange-rates .content .rates-wrapper .parameters .select-wrapper .bank-date {
+                display: flex;
+                justify-content: space-between;
+            }
+
+                body .exchange-rates .content .rates-wrapper .parameters .select-wrapper .bank-date > div {
+                    width: 100%;
+                    padding: 0 10px;
+                }
+
+    body .exchange-rates .content .rates-wrapper .buttons {
+        margin-top: 20px;
+        min-height: 40px;
+    }
+
+        body .exchange-rates .content .rates-wrapper .buttons .btn {
+            width: 200px;
+            padding: 10px 0;
+            border: none;
+            background: #87d587;
+            border-radius: 7px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+            body .exchange-rates .content .rates-wrapper .buttons .btn:last-child {
+                margin-left: 20px;
+            }
+
+            body .exchange-rates .content .rates-wrapper .buttons .btn:hover {
+                cursor: pointer;
+                box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+                border-bottom: 3px solid #6bb66b;
+            }
+
+body table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    body table tr td {
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+    body table tr .align-center {
+        text-align: center;
+    }
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,84 @@
+﻿@using BankSystemASP.Domain.AuxiliaryModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model AdminViewModel
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registration</title>
+  <link href="@Url.Content("~/css/admin.css")" rel="stylesheet" type="text/css" />
+  <link href="@Url.Content("~/css/styles.css")" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+     <div class="topnav">
+      <div class="mainLogo">
+        <h1>ДмитриБанк</h1>
+      </div>
+        <a href='@Url.Action("Index","Home")'>Главная</a>
+        <a href='@Url.Action("About","Home")'>О банке</a>
+        <a href='@Url.Action("ExchangeRatesView","ExchangeRates")'>Курсы</a>
+        <a href='@Url.Action("Branches","Branch")'>Филлиалы</a>
+      </div>
+<div class="base-block">
+  <div class="filter">
+    <div class="filter-wrapper">
+      <span>E-mail:</span>
+      <select name="email">
+        <option selected disabled>Выберите e-mail</option>
+        @foreach (var item in Model.AllUsersEmails)
+        {
+           <option value="@item.Key">@item.Value</option>
+        }
+      </select>
+      <button>Найти</button>
+    </div>
+  </div>
+  <div class="info-block">
+    <div class="check-info">
+
+      <div class="bank-info">
+        <div class="main info">
+          <div><span>Номер счета:</span> <br> 1357-8448-5429-4352</div>
+          <div><span>Владелец:</span> <br> Корзун Д.А.</div>
+        </div>
+        <div class="work-time">
+          <div class="checkbox">
+            <input type="checkbox" id="" name="parking">
+            <label for="parking">Администратор</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="" name="parking">
+            <label for="parking">Заморозить</label>
+            <button>Cохранить</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <hr>
+    <div class="date-info">
+      <div class="date-filter">
+        <label for="">От</label>
+        <input type="date">
+        <label for="">До</label>
+        <input type="date">
+      </div>
+      <div class="bank-info">
+            <div class="transaction-info">
+          <div><span>Номер счета отправителя:</span> 1111-1111-1111-1111</div>
+          <div><span>Номер счета получателя:</span> 1357-8448-5429-4352</div>
+          <div><span>Сумма транзакции:</span> 50</div>
+          <div><span>Валюта:</span> BYN</div>
+          <div><span>Дата транзакции:</span> 23.06.2022</div>
+        </div>
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

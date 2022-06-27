@@ -1,0 +1,120 @@
+﻿@using BankSystemASP.Domain.AuxiliaryModel;
+@model BranchFilters
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registration</title>
+  <link href="@Url.Content("~/css/BranchStyle.css")" rel="stylesheet" type="text/css" />
+  <link href="@Url.Content("~/css/styles.css")" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <div class="topnav">
+  <div class="mainLogo">
+  <h1>ДмитриБанк</h1>
+   </div>
+    <a href='@Url.Action("Index","Home")'>Главная</a>
+    <a href='@Url.Action("About","Home")'>О банке</a>
+    <a href='@Url.Action("ExchangeRatesView","ExchangeRates")'>Курсы</a>
+    <a href='@Url.Action("Branches","Branch")'>Филлиалы</a>
+  </div>
+
+  <form action="/Branch/Branches" method="post">
+  <div class="base-block">
+  <div class="filter">
+    <div class="filter-wrapper">
+      <span>Область</span>
+      <select multiple asp-for="AddreesRegion" onchange="this.form.submit()">
+        <option disabled>Выберите область</option>
+        @if(Model.branchessAddresses?.ToArray().Length != 0)  
+        foreach (var item in Model?.branchessAddresses?.ToArray()?[0]?.regions)
+        {
+            <option value="@item.name">@item.name</option>
+        }
+      </select>
+    </div>
+    <div class="filter-wrapper">
+      <span>Город</span>
+      <select multiple asp-for="AddreesCity">
+        <option disabled>Выберите город</option>
+        @if(Model.branchessAddresses.ToArray().Length != 0 &&  Model.branchessAddresses.ToArray()[0].cities != null) foreach (var item in Model?.branchessAddresses?.ToArray()[0].cities)
+        {
+            <option value="@item.name">@item.name</option>
+        }
+      </select>
+    </div>
+    <div class="filter-wrapper">
+      <span>Улица</span>
+      <select multiple asp-for="AddreesStreet">
+        <option disabled>Выберите улицу</option>
+        @if(Model.branchessAddresses.ToArray().Length != 0) foreach (var item in Model?.branchessAddresses)
+        {
+            <option value="@item.AddreesStreet" asp-for="@Model.AddreesStreet">@item.AddreesStreet</option>
+        }
+      </select>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" id="IsWorksOnWeekends" name="IsWorksOnWeekends" asp-for="IsWorksOnWeekends" data-val="true" data-val-required="The isActive field is required.">
+      <label for="weekend">Работает в выходные</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" id="IsForInvalid" name="IsForInvalid" asp-for="IsForInvalid" data-val="true" data-val-required="The isActive field is required.">
+      <label for="disabled-person">Адаптировано для инвалидов</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" id="IsHaveWiFi" name="IsHaveWiFi" asp-for="IsHaveWiFi" data-val="true" data-val-required="The isActive field is required.">
+      <label for="wi-fi">Наличие Wi-fi</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" id="IsPreEntry" name="IsPreEntry" asp-for="IsPreEntry" data-val="true" data-val-required="The isActive field is required.">
+      <label for="entry">Предварительная запись</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" id="IsHaveParking" name="IsHaveParking" asp-for="IsHaveParking" data-val="true" data-val-required="The isActive field is required.">
+      <label for="parking">Наличие парковки</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" id="IsElectronicQueue" name="IsElectronicQueue" asp-for="IsElectronicQueue" data-val="true" data-val-required="The isActive field is required.">
+      <label for="queue">Электронная очередь</label>
+    </div>
+  </div>
+  <button type="submit">Показать</button>
+      </form>
+
+
+    <div class="info-block">
+    <div class="sort">
+      <span>Сортировать:</span>
+      <select name="sortedBy" asp-for="SortedBy" onchange="this.form.submit()">
+        <option selected value="up">По возрастанию</option>
+        <option value="down">По убыванию</option>
+      </select>
+    </div>
+    <div style="clear: both"></div>
+
+ @foreach (var item in Model.branchessAddresses)
+ {
+    <div class="bank-info">
+        <div class="main info">
+          <div><span>Номер:</span> @item.Namber</div>
+          <div><span>Адрес: @item.AddreesRegion область, @item.AddreesCity, @item.StreetType @item.AddreesStreet, @item.Building </span> </div>
+        </div>
+        <div class="work-time">
+          <div><span>Время работы:</span></div>
+          <div>@item.WorkTime</div>
+        </div>
+    </div> 
+ }
+ </div>
+
+
+
+</body>
+</html>
